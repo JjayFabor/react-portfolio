@@ -148,7 +148,6 @@ body {
 
   .logo {
     position: absolute;
-    animation: bounce 2s infinite;
   }
 
   .container {

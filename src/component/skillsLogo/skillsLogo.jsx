@@ -16,7 +16,7 @@ const SkillsLogo = () => {
       let angle = (index / logos.length) * (2 * Math.PI);
 
       const moveLogo = () => {
-        angle += 0.01; // speed of rotation
+        angle += 0.01;
 
         const x = centerX + radius * Math.cos(angle) - 18; 
         const y = centerY + radius * Math.sin(angle) - 18; 
