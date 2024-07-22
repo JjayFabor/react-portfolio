@@ -1,12 +1,11 @@
 import React from 'react';
-import assets from './assets';
 import MotionButton from './buttons/MotionButton';
 
 const Projects = () => {
   const projectData = [
-    { title: 'Lettuce Watch', imageUrl: assets.images.project1, description: "A real-time monitoring system for lettuce farms.", githubUrl: 'https://github.com/JjayFabor/LettuceRealTimeMonitoringSystem' },
-    { title: 'BridgeAI', imageUrl: assets.images.project2, description: "An educational platform for personalized learning.", githubUrl: 'https://github.com/JjayFabor/bridgeAI' },
-    { title: 'Gcash Inventory', imageUrl: assets.images.project3, description: "An inventory for Gcash E-Wallet Store.", githubUrl: 'https://github.com/JjayFabor/GcashInventory' },
+    { title: 'Lettuce Watch', imageUrl: '/images/project1.png', description: "A real-time monitoring system for lettuce farms.", githubUrl: 'https://github.com/JjayFabor/LettuceRealTimeMonitoringSystem' },
+    { title: 'BridgeAI', imageUrl: '/images/project2.png', description: "An educational platform for personalized learning.", githubUrl: 'https://github.com/JjayFabor/bridgeAI' },
+    { title: 'Gcash Inventory', imageUrl: '/images/project3.png', description: "An inventory for Gcash E-Wallet Store.", githubUrl: 'https://github.com/JjayFabor/GcashInventory' },
   ];
 
   const handleRedirect = (url) => {
@@ -14,7 +13,7 @@ const Projects = () => {
   };
 
   const handleDownload = () => {
-    window.open('src/assets/FaborSWEResume.pdf', '_blank');
+    window.open('/resume/FaborSWEResume.pdf', '_blank');
   }
 
   return (

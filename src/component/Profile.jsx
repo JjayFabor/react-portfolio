@@ -1,12 +1,11 @@
 import 'boxicons';
 import React from 'react';
-import assets from './assets';
 import MotionButton from './buttons/MotionButton';
 import SkillsLogo from './skillsLogo/skillsLogo';
 
 const Profile = () => {
   const handleDownload = () => {
-    window.open(assets.resume.cv, '_blank');
+    window.open('/resume/FaborSWEResume.pdf', '_blank');
   }
 
   return (
@@ -14,7 +13,7 @@ const Profile = () => {
       <div className="card-content flex flex-col items-center min-h-screen">
         <div className="mt-6 rounded-full overflow-hidden animate-bounce drop-shadow-custom-3xl">
           <img 
-            src={assets.images.profile}
+            src='/images/img.png'
             alt="Profile" 
             className="lg:w-[243px] lg:h-[273px] sm:h-[103px]"
           />
