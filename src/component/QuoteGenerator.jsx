@@ -8,7 +8,7 @@ const QuoteGenerator = (props) => {
   const fetchQuote = async () => {
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:8000/api/');
+      const response = await fetch('https://quote-api-tnzt.onrender.com/api/');
       const data = await response.json();
       setQuote(data.quote);
       setAuthor(data.author);
@@ -25,7 +25,8 @@ const QuoteGenerator = (props) => {
 
   return (
     <div>
-      {loading ? <p>Loading...</p> : <p>{quote} - {author}</p>}
+      <p>{quote}</p>
+      <p>- {author}</p>
     </div>
   );
 };
