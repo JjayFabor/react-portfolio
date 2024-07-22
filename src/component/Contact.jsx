@@ -1,5 +1,6 @@
 import { useForm, ValidationError } from '@formspree/react';
 import React from 'react';
+import QuoteGenerator from './QuoteGenerator';
 
 const Contact = () => {
 
@@ -15,7 +16,10 @@ const Contact = () => {
   return (
     <div className='content flex justify-center items-center h-full'>
       {/* <h1 className=' content-title pb-16'>Contact Me</h1> */}
-      <div className='flex justify-center max-w-xl w-full'>
+      <span className='w-[50%] text-2xl'>
+        <QuoteGenerator/>
+      </span>
+      <div className='flex justify-center max-w-xl w-full pt-16'>
         <div className='max-w-xl w-[100%] p-6 bg-gray-600 rounded-lg drop-shadow-black-3xl'>
           <form onSubmit={handleSubmit} method='POST'>
             <div className='mb-4' >

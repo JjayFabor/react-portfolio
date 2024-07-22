@@ -11,6 +11,11 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+from decouple import config
+
+SECRET_KEY = config('SECRET_KEY')
+ALLOWED_HOSTS = config('ALLOWED_HOSTS').split(',')
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -104,12 +109,12 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Localhost
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:5713',
+    "https://jjay-fabor.netlify.app/",
 )
 
 CORS_ALLOWED_ORIGINS = [
-    "http://127.0.0.1:5173",
-    "http://localhost:5173",
+    
+    "https://jjay-fabor.netlify.app/",
 ]
 
 
