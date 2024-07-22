@@ -12,14 +12,14 @@ body {
     font-family: "DINASTI Regular";
     font-style: normal;
     font-weight: normal;
-    src: url("src/assets/fonts/DINASTI-Regular.woff") format("woff");
+    src: url("../public/fonts/DINASTI-Regular.woff") format("woff");
   }
 
   @font-face {
     font-family: "DINASTI Bold";
     font-style: normal;
     font-weight: normal;
-    src: url("src/assets/fonts/DINASTI-Bold.woff") format("woff");
+    src: url("../public/fonts/DINASTI-Bold.woff") format("woff");
   }
 }
 
