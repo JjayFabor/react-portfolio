@@ -15,7 +15,7 @@ const MainContent = () => {
   return (
     <div className='card-wrapper h-full w-full mx-5'>
       <div className='card-content flex'>
-        <nav className="justify-between bg-slate-800 w-full p-5 mb-6">
+        <nav className="justify-between bg-slate-500 w-full p-5 mb-6">
           <ul className="flex justify-center space-x-6 font-dinasti-regular text-4xl ml-auto">
             <li className={getActiveClass('/')}><Link to="/">About</Link></li>
             <li className={getActiveClass('/experience')}><Link to="/experience">Experience</Link></li>
@@ -23,7 +23,7 @@ const MainContent = () => {
             <li className={getActiveClass('/contact')}><Link to="/contact">Contact</Link></li>
           </ul>
         </nav>
-        <div className='absolute w-[calc(100%-2px)] h-[calc(100%-67px)] bg-gradient-to-b top-[20px] left-[1px] from-slate-600 to-slate-900 mt-[45px]'>
+        <div className='absolute w-[calc(100%-2px)] h-[calc(100%-67px)] bg-gradient-to-b top-[20px] left-[1px] from-slate-900 to-slate-500 mt-[45px]'>
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/experience" element={<Experience />} />

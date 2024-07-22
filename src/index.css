@@ -41,7 +41,7 @@ body {
   }
 
   .card-content {
-    @apply absolute w-[calc(100%-2px)] h-[calc(100%-2px)] bg-gradient-to-b top-[1px] left-[1px] from-slate-500 to-slate-900 rounded-2xl;
+    @apply absolute w-[calc(100%-2px)] h-[calc(100%-2px)] bg-gradient-to-b top-[1px] left-[1px] from-slate-900 to-slate-500 rounded-2xl;
     z-index: 10;
   }
 

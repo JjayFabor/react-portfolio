@@ -5,7 +5,7 @@ import SkillsLogo from './skillsLogo/skillsLogo';
 
 const Profile = () => {
   const handleDownload = () => {
-    window.open('/resume/FaborSWEResume.pdf', '_blank');
+    window.open('/resume/SoftwareDevResume.pdf', '_blank');
   }
 
   return (
@@ -19,7 +19,7 @@ const Profile = () => {
           />
         </div>
         <h1 className="lg:text-4xl font-dinasti-bold font-bold text-center mb-1 mt-6">Jaylord Vhan Fabor</h1>
-        <h2 className="lg:text-2xl font-semibold font-dinasti-regular text-gray-300 text-center mb-4">Software Engineer</h2>
+        <h2 className="lg:text-2xl font-semibold font-dinasti-regular text-gray-300 text-center mb-4">Software Developer</h2>
         <div className="contact-info flex justify-center space-x-6">
           <a href="mailto:faborjaylordvhan@gmail.com" className="text-blue-500">
             <box-icon name='envelope' color='white' size='md'></box-icon>
