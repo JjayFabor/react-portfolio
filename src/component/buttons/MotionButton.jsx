@@ -4,7 +4,7 @@ const MotionButton = (props) => {
 
   return (
     <motion.button 
-      className="px-4 py-2 md:px-6 md:py-1 lg:px-8 lg:py-2 rounded-md relative bg-slate-500 hover:bg-slate-600 hover:shadow-2xl white-drop-shadow" 
+      className="px-4 py-2 md:px-6 md:py-1 lg:px-8 lg:py-2 rounded-md relative bg-slate-700 hover:bg-slate-600 hover:shadow-2xl white-drop-shadow" 
       initial={{ "--x": "100%", scale: 1 }} 
       animate={{ "--x": "-100%" }} 
       whileTap={{ scale: 0.97 }} 

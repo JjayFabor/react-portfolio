@@ -23,7 +23,7 @@ const About = () => {
             <span style={{ color: '#00CED1'}}>
               {text}
             </span>
-            <Cursor cursorStyle='>' />
+            <Cursor cursorStyle='>' cursorColor='#00CED1' />
           </h1>
         </span>
         <span className='pt-3 font-extralight text-xl'>
