@@ -14,7 +14,7 @@ const Profile = () => {
       <div className="card-content flex flex-col items-center min-h-screen">
         <div className="mt-6 rounded-full overflow-hidden animate-bounce drop-shadow-custom-3xl">
           <img 
-            src="./src/assets/img.png" 
+            src={assets.images.profile}
             alt="Profile" 
             className="lg:w-[243px] lg:h-[273px] sm:h-[103px]"
           />

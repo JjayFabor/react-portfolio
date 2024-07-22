@@ -1,4 +1,5 @@
 // Import images
+import profile from '../assets/img.png';
 import project1 from '../assets/projects/project1.png';
 import project2 from '../assets/projects/project2.png';
 import project3 from '../assets/projects/project3.png';
@@ -14,6 +15,7 @@ const assets = {
     project1,
     project2,
     project3,
+    profile,
   },
   resume: {
     cv,
