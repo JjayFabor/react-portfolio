@@ -1,11 +1,12 @@
 import 'boxicons';
 import React from 'react';
+import assets from './assets';
 import MotionButton from './buttons/MotionButton';
 import SkillsLogo from './skillsLogo/skillsLogo';
 
 const Profile = () => {
   const handleDownload = () => {
-    window.open('src/assets/FaborSWEResume.pdf', '_blank');
+    window.open(assets.resume.cv, '_blank');
   }
 
   return (

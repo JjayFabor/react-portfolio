@@ -1,11 +1,12 @@
 import React from 'react';
+import assets from './assets';
 import MotionButton from './buttons/MotionButton';
 
 const Projects = () => {
   const projectData = [
-    { title: 'Lettuce Watch', imageUrl: './src/assets/projects/project-1.png', description: "A real-time monitoring system for lettuce farms.", githubUrl: 'https://github.com/JjayFabor/LettuceRealTimeMonitoringSystem' },
-    { title: 'BridgeAI', imageUrl: 'src/assets/projects/project-2.png', description: "An educational platform for personalized learning.", githubUrl: 'https://github.com/JjayFabor/bridgeAI' },
-    { title: 'Gcash Inventory', imageUrl: 'src/assets/projects/project-3.png', description: "An inventory for Gcash E-Wallet Store.", githubUrl: 'https://github.com/JjayFabor/GcashInventory' },
+    { title: 'Lettuce Watch', imageUrl: assets.images.project1, description: "A real-time monitoring system for lettuce farms.", githubUrl: 'https://github.com/JjayFabor/LettuceRealTimeMonitoringSystem' },
+    { title: 'BridgeAI', imageUrl: assets.images.project2, description: "An educational platform for personalized learning.", githubUrl: 'https://github.com/JjayFabor/bridgeAI' },
+    { title: 'Gcash Inventory', imageUrl: assets.images.project3, description: "An inventory for Gcash E-Wallet Store.", githubUrl: 'https://github.com/JjayFabor/GcashInventory' },
   ];
 
   const handleRedirect = (url) => {
